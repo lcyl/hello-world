@@ -1,0 +1,28 @@
+// 4) 예약
+// 속성 : 시간, 인원, 예약자, 연락처, 상태 (예약중, 예약취소)
+// 행동 : 취소, 예약, 변경, 조회
+public class Reservation
+{
+    private int time;
+    private int per;
+    private char renm;
+    private int call;
+    private int state;
+
+    public int change(int curday)
+    {
+        int day;
+        return curday;
+    }
+
+    public int cer(int curday)
+    {
+        int time;
+        int per;
+        char renm;
+        int call;
+
+        return curday;
+    }
+
+}
