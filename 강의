@@ -1,0 +1,30 @@
+// 3) 강의
+// 속성 : 강좌제목, 강사, 수강생
+// 행동 : 시작, 종료, 평가
+class CurLeSt
+{
+    private boolean cur;
+    public int start;
+    public int end;
+}
+
+public class Lecture
+{
+    private char lecnm;
+    private char teacher;
+    private char student;
+
+    public static void CurLeSt(String[]args)
+    {
+        CurLeSt C = new CurLeSt();
+        C.start = 1;
+        C.end = 0;
+        System.out.println( C.start);
+    }
+
+    public static void evaluiton()
+    {
+        int grade;
+        char student;
+    }
+}
