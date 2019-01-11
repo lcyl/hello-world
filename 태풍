@@ -1,0 +1,32 @@
+// 2) 태풍
+// 속성 : 이름, 번호, 현재위치(위도, 경도), 위도 , 경도, 이동속도
+// 행동 : 이동 (위도, 경도 변경)
+
+public class Typhoon
+{
+    private char name;
+    private int cord;
+    private int curtude;
+    private int latitude;
+    private int longtitude;
+    private int speed;
+
+    public int moving()
+    {
+        if (longtitude >= 0 )
+        {
+            longtitude++;
+            if ( longtitude < 180 )
+                longtitude--;
+        }
+        if ( latitude >= 0 )
+        {
+            latitude++;
+            if ( latitude < 90 )
+                latitude--;
+        }
+        return curtude;
+    }
+
+
+}
